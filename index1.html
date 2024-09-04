@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Lovers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #6f4e37; /* Coffee brown */
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://demobucket20241.s3.us-east-2.amazonaws.com/download.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #6f4e37;
+            padding-bottom: 10px;
+            color: #6f4e37;
+        }
+        .coffee-menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .coffee-item {
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .coffee-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #6f4e37;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Lovers</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Welcome to Coffee Lovers</h1>
+        <p>Explore the finest coffee blends and brews</p>
+    </div>
+
+    <div class="container">
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="coffee-menu">
+                <div class="coffee-item">
+                    <img src="https://demobucket20241.s3.us-east-2.amazonaws.com/espresso.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>Strong and rich, a classic Italian coffee.</p>
+                </div>
+                <div class="coffee-item">
+                    <img src="https://demobucket20241.s3.us-east-2.amazonaws.com/latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Smooth and creamy with a hint of sweetness.</p>
+                </div>
+                <div class="coffee-item">
+                    <img src="https://demobucket20241.s3.us-east-2.amazonaws.com/cappuccino.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <p>Perfectly balanced espresso with steamed milk and foam.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Coffee Lovers, we believe in the magic of a good cup of coffee. Our beans are sourced from the finest growers around the world, and our baristas are passionate about creating the perfect brew for every customer.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to get in touch? Email us at <a href="mailto:info@coffeelovers.com">info@coffeelovers.com</a> or visit us at our store located at 123 Coffee Street, Brewtown.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coffee Lovers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
