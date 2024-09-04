@@ -1,5 +1,5 @@
 # Terraform-project1
-
+# Simple DevOps project to Practice Terraform with AWS and create a Static website on S3
 📝 Key Points:
 
 -Define AWS Provider: Whenever we want to work with AWS on Terraform we need to first create a provider
